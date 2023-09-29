@@ -1,0 +1,40 @@
+#botoes {
+	text-align: center;
+}
+
+.btn {
+	width: 110px;
+}
+
+main {
+	vertical-align:top;
+	position: relative;
+}
+
+.fixo {
+	z-index: 1000;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 8px;
+	word-wrap: break-word;
+	position: fixed;
+}
+
+iframe:focus {
+	outline: none;
+  }
+  
+iframe[seamless] {
+	display: block;
+  }
+
+.input-hidden {
+	box-shadow: 0;
+    border: 0 none;
+    outline: 0;
+  }
+
+.card {
+	padding:20px;
+}
+

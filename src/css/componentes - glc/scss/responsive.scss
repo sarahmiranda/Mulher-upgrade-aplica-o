@@ -1,0 +1,36 @@
+@media (max-width: 375px){
+  .banners-mulheres-statico{
+    .banners-mulheres-statico-12x,
+    .banners-mulheres-statico-todo-br{
+      p{
+        font-size:14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px){
+  header{
+    form{
+      margin: 20px 0;
+    }
+  }
+
+  #banners-mulheres{
+    display: none;
+  }
+
+  .produtos-container img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px){
+  header{
+    ul{
+      li{
+        margin:7px 0;
+      }
+    }
+  }
+}

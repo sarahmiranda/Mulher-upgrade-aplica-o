@@ -1,0 +1,9 @@
+@import "./styles.css";
+@import "./newstyle.css";
+
+
+aside{
+  background-image: url("../assets/loginCover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

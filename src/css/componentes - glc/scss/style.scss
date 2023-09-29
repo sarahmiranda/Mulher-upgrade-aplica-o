@@ -1,0 +1,24 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+//Variaveis
+@import "./variaveis.scss";
+
+//Components
+@import "./header.scss";
+@import "./nav-paginas.scss";
+@import "./banners-mulheres-statico.scss";
+@import "./destaques.scss";
+@import "./destaques-mulheres.scss";
+@import "./footer.scss";
+@import "./responsive.scss";
+
+//Framework
+@import "./bootstrap.scss";
+
+//Components Bootstrap
+@import "./breadcrumb.scss";
+
+//Config
+@import "./config.scss";
+
