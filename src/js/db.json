@@ -1,0 +1,168 @@
+{
+  "infos": [
+    {
+      "id": "1",
+      "Nome": "Eduarda Antônia",
+      "Sobrenome": "da Silva e Souza",
+      "Formacao": "Ensino médio",
+      "Area": "V.R.",
+      "Voce": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium.\nRerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!",
+      "Telefone": "011991999644",
+      "Email": "eduardaSP@gmail.com",
+      "Profissao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi qui exercitationem rerum facere, minima excepturi tempore nam a nihil? Similique. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi qui exercitationem rerum facere, minima excepturi tempore nam a nihil? Similique.\n\nLorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi qui exercitationem rerum facere, minima excepturi tempore nam a nihil? Similique."
+    },
+    {
+      "id": "2",
+      "Nome": "Luiza",
+      "Sobrenome": "Almeida",
+      "Formacao": "técnico mecânica",
+      "Area": "Suporte",
+      "Voce": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium.\nRerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!",
+      "Telefone": "4199999999",
+      "Email": "exemplo2@gmail.com",
+      "Profissao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium.\nRerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!"
+    },
+    {
+      "id": "3",
+      "Nome": "Eliza",
+      "Sobrenome": "Ribeiro Montielli",
+      "Formacao": "Superior cursando",
+      "Area": "Software, UX, Back-end",
+      "Voce": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium.",
+      "Telefone": "3199999999",
+      "Email": "exemplo4@pucminas.com.br",
+      "Profissao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium. Rerum qui expedita reiciendis!"
+    },
+    {
+      "id": "4",
+      "Nome": "Marcella",
+      "Sobrenome": "Varella",
+      "Formacao": "Mecânica",
+      "Area": "Hardware",
+      "Voce": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium. Rerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!",
+      "Telefone": "89877777777",
+      "Email": "exemplo2@pucminas.com",
+      "Profissao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium. Rerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!"
+    },
+    {
+      "id": "5",
+      "Nome": "Mary",
+      "Sobrenome": " Jane",
+      "Formacao": "Artes",
+      "Area": "Engenharia da Computação",
+      "Voce": "Rackham.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a pieceof classical Latin literature from 45 BC, making it over 2000 years old. Lorem Ipsum comes from sections 1.10.32 and1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The firstline of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "Telefone": "21999999999",
+      "Email": "exemplo5@gmail.com",
+      "Profissao": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of "
+    },
+    {
+      "id": "6",
+      "Nome": "Diana",
+      "Sobrenome": "Prince",
+      "Formacao": "Enfermeira",
+      "Area": "Inteligência Virtual",
+      "Voce": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium. Rerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!",
+      "Telefone": "5166666666",
+      "Email": "exemplo7@gmail.com",
+      "Profissao": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, obcaecati! Aspernatur atque hic, ut sapiente aperiam nesciunt enim voluptas cum dolorem accusamus cumque commodi tempora culpa id et provident! Laudantium. Rerum qui expedita reiciendis! Nesciunt iste distinctio iure repellat eveniet aspernatur voluptas. Repellat pariatur itaque porro libero! Unde sit officiis, in, explicabo, aliquid distinctio dignissimos voluptas omnis eos corporis id!"
+    }
+  ],
+"cursos": [
+  {
+    "id": "1",
+    "titulo": "Crie um site simples usando HTML, CSS e JavaScript",
+    "link": "https://www.ev.org.br/cursos/crie-um-site-simples-usando-html-css-e-javascript",
+    "cargah": "02",
+    "area": "Tecnologia",
+    "prerequisitos": "Familiaridade com, pelo menos, uma linguagem de programação e uma linguagem de marcação (como HTML). Instalação do Visual Studio Code, que é um editor de código de plataforma cruzada (que você pode baixar dentro do próprio curso).",
+    "idade": "16",
+    "apresentacao": "Neste curso, você terá as informações fundamentais para trabalhar com o desenvolvimento para a Web",
+    "descricao": "Neste curso, você terá as informações fundamentais para trabalhar com o desenvolvimento para a Web, aprendendo a usar HTML, CSS e JavaScript para criar sites ou aplicativos da Web, que parecem e funcionam como aplicativos nativos, mas que são executados em seu navegador de Internet.",
+    "modulo": "Instalação do Visual Studio Code <br> O que há em uma página da Web <br> Módulo 1 – Configurar a estrutura do seu aplicativo Web <br> Módulo 2 – Adicionar um HTML Básico ao seu aplicativo Web <br> Módulo 3 – Aplicar estilos ao HTML com o CSS <br> Módulo 4 – Adicionar interatividade com o JavaScript"
+  },
+  {
+    "id": "2",
+    "titulo": "Desenvolvendo Aplicações Mobile com Android Studio",
+    "link": "https://www.ev.org.br/cursos/desenvolvendo-aplicacoes-mobile-com-android-studio",
+    "cargah": "15",
+    "area": "Tecnologia",
+    "prerequisitos": "Recomendamos a realização prévia do curso Fundamentos de Lógica de Programação.",
+    "idade": "16",
+    "apresentacao": "Neste curso, você entenderá um pouco mais a respeito das aplicações mobile e das plataformas disponíveis.",
+    "descricao": "Neste curso, você entenderá um pouco mais a respeito das aplicações mobile e das plataformas disponíveis atualmente para desenvolvimento.",
+    "modulo": "Módulo 1 - Aplicativos mobile e plataformas de desenvolvimento <br> Módulo 2 - Criando uma aplicação mobile e activity <br> Módulo 3 - Requisições HTTP"
+  },
+  {
+    "id": "3",
+    "titulo": "Ética no Desenvolvimento de Sistemas",
+    "link": "https://www.ev.org.br/cursos/etica-no-desenvolvimento-de-sistemas",
+    "cargah": "8",
+    "area": "Tecnologia",
+    "prerequisitos": "Não há pré-requisitos para a realização deste curso.",
+    "idade": "16",
+    "apresentacao": "Este curso foi elaborado com o objetivo de problematizar conceitos, como moral, valores e ética",
+    "descricao": "O trabalho na área de Desenvolvimento de Sistemas requer especial atenção no que diz respeito à propriedade intelectual e à proteção de direitos autorais. Nesse contexto, este curso foi elaborado com o objetivo de problematizar conceitos, como moral, valores e ética, de forma a ressaltar a importância da ética profissional, cujo objetivo é orientar a conduta dos profissionais durante a execução de seus trabalhos em prol do bom funcionamento das organizações e do cumprimento de leis nacionais e internacionais.",
+    "modulo": "Capítulo 1 – Ética e CidadaniaTópico 1:  Moral, Ética e CidadaniaMoral, ética e cidadaniaAtitudes antiéticasDiferença entre ética e moralTópico 2: Ética Profissional e Códigos de Ética em InformáticaConceito de ética profissionalConceito de código de éticaCapítulo 2 – SoftwareTópico 1:  Tipos de Software e Licenças de usoConceito e tipos de softwareLicenças de uso e propriedade intelectualPedido de registroTópico 2:  Ética no Desenvolvimento de SistemasDesenvolvimento de sistemas em conformidade com a éticaExemplos de postura antiéticaConfidencialidade e privacidade de dadosManipulação de dados e informação"
+  },
+  {
+    "id": "4",
+    "titulo": "HTML - Básico",
+    "link": "https://www.ev.org.br/cursos/html-basico",
+    "cargah": "89",
+    "area": "Tecnologia",
+    "prerequisitos": "Não há pré-requisitos para a realização deste curso.",
+    "apresentacao": "Este curso foi desenvolvido para auxiliar na criação de páginas Web, por meio do Hyper Text Markup Language",
+    "idade": "16",
+    "descricao": "Este curso foi desenvolvido para auxiliar na criação de páginas Web, por meio do Hyper Text Markup Language – mais conhecido como HTML.\n\nPara quem nunca ouviu falar dessa linguagem de marcação, explicamos que se trata de uma das mais populares. Aquilo que você vê quando abre uma página na Internet é uma interpretação que seu navegador faz do HTML.\n\nCriada por Tim Berners-Lee em 1990, quando desenvolveu a revolucionária World Wide Web, essa linguagem utiliza um formato de código simples, que não precisa da ajuda de aplicativos especiais. Para criar um documento HTML, apenas o bloco de notas do computador já é o suficiente!",
+    "modulo": "Módulo 1 – Introdução\nMódulo 2 – HTML e a Web\nMódulo 3 – Criando um documento HTML\nMódulo 4 – Formatando um documento HTML\nMódulo 5 – Criando listas\nMódulo 6 – Inserindo imagens\nMódulo 7 – Criando links\nMódulo 8 – Combinando tags\nMódulo 9 – Usando imagens mapeadas"
+  },
+  {
+    "id": "5",
+    "titulo": "Linguagem de Modelagem Unificada (UML)",
+    "link": "https://www.ev.org.br/cursos/linguagem-de-modelagem-unificada-uml",
+    "cargah": "6",
+    "area": "Tecnologia",
+    "prerequisitos": "Não há pré-requisitos para a realização deste curso.",
+    "apresentacao": "O objetivo deste curso é introduzir os principais conceitos da Linguagem de Modelagem Unificada (UML)",
+    "idade": "16",
+    "descricao": "O objetivo deste curso é introduzir os principais conceitos da Linguagem de Modelagem Unificada (UML), em inglês, Unified Modeling Language.\nEsta notação virou referência e um padrão internacional a ser seguido na indústria de engenharia de software, pois é uma linguagem independente, ou seja, não está relacionada a nenhuma linguagem de programação ou a um processo de desenvolvimento de software específico, o que facilita a sua adaptação à necessidade do projeto.",
+    "modulo": "Módulo 1 - Linguagem de Modelagem Unificada\nMódulo 2 - Desenvolvimento de software orientado a objetos\nMódulo 3 - Notações e desenvolvimento de uma UML"
+  },
+  {
+    "id": "6",
+    "titulo": "HTML e CSS na Prática",
+    "link": "https://www.ev.org.br/cursos/html-e-css-na-pratica",
+    "cargah": "89",
+    "area": "Tecnologia",
+    "prerequisitos": "Recomendamos a realização prévia do curso HTML – Básico",
+    "apresentacao": "Neste curso, você aprenderá tudo o que é necessário para produzir um website utilizando as linguagens HTML5 e CSS.",
+    "idade": "16",
+    "descricao": "Neste curso, você aprenderá tudo o que é necessário para produzir um website utilizando as linguagens HTML5 e CSS. Por meio das várias demonstrações disponibilizadas, você terá a oportunidade de ver como codificar um website com layout moderno, agradável e tecnologia responsiva.\nSe você já possui conhecimentos iniciais em HTML e deseja ver, na prática, como aplicar recursos mais avançados, este é o curso indicado!",
+    "modulo": "Capítulo 1 – Desenvolvimento Web\nTópico 1: Internet\nInternet: definição e trajetória\nNavegadores Web\nAcessibilidade"
+  },
+  {
+    "id": "7",
+    "titulo": "HTML - Avançado",
+    "link": "https://www.ev.org.br/cursos/html-avancado",
+    "cargah": "89",
+    "area": "Tecnologia",
+    "prerequisitos": "Recomendamos a realização prévia do curso HTML – Básico",
+    "apresentacao": "Dividido em quatro módulos, este curso traz conceitos que complementam o conteúdo apresentado em nosso curso basico",
+    "idade": "16",
+    "descricao": "Dividido em quatro módulos, este curso traz conceitos que complementam o conteúdo apresentado em nosso curso de HTML – Básico. \n\nAgora, você poderá prosseguir seus estudos e aprender a criar e formatar tabelas, frames e formulários, além de documentar páginas. \n\nTodos esses elementos são muito importantes para a criação de páginas Web. As tabelas, por exemplo, são úteis para a organização dos dados e imagens. Já os formulários possibilitam que os usuários interajam com os responsáveis pelo site, o que é essencial para páginas corporativas e afins. Por fim, os frames são usados para dividir uma página, possibilitando a criação de vários documentos HTML que podem ser atualizados separadamente. \n\nVocê também conhecerá a tag META para a inserção de metadados que servem para descrever as definições da página, incluir palavras-chaves, entre outros dados que não aparecem para o usuário, mas que são utilizados pelos navegadores e sistemas de busca.\n\nVale saber: nosso conteúdo apresenta exercícios para a fixação dos conceitos apresentados.",
+    "modulo": "Módulo 1 – Criando e formatando tabelas\nMódulo 2 – Criando e formatando formulários\nMódulo 3 – Criando e formatando frames\nMódulo 4 – Incrementando a página Web"
+  },
+  {
+    "id": "8",
+    "titulo": "Introdução ao JavaScript",
+    "link": "https://www.ev.org.br/cursos/introducao-ao-javascript",
+    "cargah": "20",
+    "area": "Tecnologia",
+    "prerequisitos": "Recomendamos a realização prévia do curso Fundamentos de Lógica de Programação.",
+    "apresentacao": "A Linguagem JavaScript é conhecida como uma linguagem de programação leve, interpretada, não compilada e orientada a obj",
+    "idade": "16",
+    "descricao": "A Linguagem JavaScript é conhecida como uma linguagem de programação leve, interpretada, não compilada e orientada a objetos.\nPode ser definida, ainda, como a linguagem de script voltada para páginas Web, baseada em protótipos, multi-paradigma e dinâmica, reconhecendo também os estilos orientados a objetos.",
+    "modulo": "Capítulo 1 – Princípios do JavaScript\n Tópico 1: Introdução ao JavaScript\n Conceito da linguagem script\n Diferenças entre Java e JavaScript e desvantagens da linguagem script"
+  }
+]
+}
