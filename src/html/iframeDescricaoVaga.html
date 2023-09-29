@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Descrição de Vaga</title>
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <!-- end Favicons -->
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/newstyle.css">
+  <link rel="stylesheet" href="../css/vagasstyles.css">
+</head>
+
+<body onload="init()">
+
+  <main class="col-sm-12">
+    <div class="">
+      <h4>Nome Vaga</h4>
+      
+      <form id="form-vaga" method="" action="">
+        <div class="col-sm-12">
+          <h5 class="" id="inputTitulo"></h5>
+          <label>Título da vaga</label>
+          <input type="text" readonly class="form-control-plaintext" id="inputTitulo" disabled>
+        </div>
+
+        <div class="col-sm-12">
+          <label for="inputTipo" class="form-label">Tipo de Vaga</label>
+          <input type="text" readonly class="form-control-plaintext" id="inputTipo" disabled>
+        </div>
+
+        <div class="col-sm-12">
+          <label for="inputCidade" class="form-label">Cidade</label>
+          <input type="text" readonly class="form-control-plaintext" id="inputCidade" disabled>
+        </div>
+        <hr>
+
+        <div class="col-sm-12">
+          <label for="inputDescCompleta" class="form-label">Descrição Completa</label>
+          <textarea wrap="hard" name="inputDescCompleta" readonly class="form-control-plaintext text-secondary" id="inputDescCompleta" required rows="5" disabled></textarea>
+        </div>
+
+        <br>
+        <div class="" id="botoes">
+          <input type="button" class="btn btn-primary" id="btnInsert" value="Candidatar">
+        </div>
+        <br>
+        <div class="col-sm-12">
+          <label for="inputId" class="">ID</label>
+          <input type="text" readonly class="form-control-plaintext" id="inputId" disabled>
+        </div>
+      </form>
+      
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>

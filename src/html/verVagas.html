@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Lista de Vaga</title>
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <!-- end Favicons -->
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/newstyle.css">
+  <link rel="stylesheet" href="../css/vagasstyles.css">
+</head>
+
+<body onload="init()">
+
+  <!-- header -->
+  <header class="container-fluid">
+    <!-- container -->
+    <section class="container">
+      <!-- row -->
+      <article class="row d-flex align-items-center">
+
+        <!-- Logo provisória M.Upgrade -->
+        <a href="../html/HomePage.html" class="col-md-2 d-flex justify-content-center">
+          <img src="../assets/logo.png" class="img-fluid" alt="Logo da empresa - Moda da Mulher">
+        </a>
+
+        <!-- Barra de busca -->
+        <form action="#" class="col-md-7 d-flex align-items-center">
+          <input type="text" name="pesquisa" placeholder="Faça uma pesquisa">
+
+          <button class="d-flex align-items-center">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+              <path fill-rule="evenodd"
+                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+            </svg>
+          </button>
+        </form>
+
+        <!-- Mulher e Empresa -->
+        <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
+          <li class="nav-item">
+            <a href="../html/login.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                class="bi bi-person-hearts" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z" />
+              </svg>
+              Mulher!
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="../html/login.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                class="bi bi-building" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                <path
+                  d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+              </svg>
+              Empresa!
+            </a>
+          </li>
+        </ul>
+        <!-- FIM Mulher e Empresa -->
+
+      </article>
+      <!-- row -->
+    </section>
+    <!-- Final do container -->
+  </header>
+  <!-- Final do header -->
+
+  <!-- MAIN MENU -->
+  <nav class="container-fluid nav-paginas ">
+    <!-- container -->
+    <section class="container ">
+      <!-- menu -->
+      <ul class="nav justify-content-center">
+
+
+        <!-- PERFIL  -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex">
+          <a href="../html/userProfile.html">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          Perfil Usuário
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="../html/CadastroCurriculo.html">
+              Currículo
+            </a>
+          </li>
+        </ul>
+        
+
+        <!-- CURSOS  -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <a href="../html/CURSOS.html">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          Cursos disponíveis
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="../html/CURSOS.html">
+              Lista de Cursos 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../html/CadastroCurso.html">
+              Cadastrar Cursos
+            </a>
+          </li>
+        </ul>
+
+
+        <!-- VAGAS  -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <a href="../html/verVagas.html">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          Vagas disponíveis
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="../html/cadastroVaga.html">
+              Vagas - Administrador
+            </a>
+          </li>
+        </ul>
+
+        
+        <!-- BLOG M.UPGRADE  -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <a href="../html/Blog.html">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          BLOG M.Update
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="../html/BlogAdmin.html">
+              Blog - Administrador
+            </a>
+          </li>
+        </ul>
+
+        <!-- Outros -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          Links Uteis
+          <ul class="nav flex-column">
+            
+            <li class="nav-item">
+              <a href="#">
+                Parcerias
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="http://pucminas.br" target="_blank">
+                PUC Minas
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="../html/About.html">
+                Sobre a Equipe
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    <!-- menu -->
+  </section>
+  <!-- end container -->
+</nav>
+
+
+<!-- end menu do site -->
+
+  
+  <div class="container">
+    <br>
+    <div class="row col-sm-12">
+      <div id="msg" class="col-sm-10 offset-sm-1">
+        <!--<div class="alert alert-warning">Vaga não encontrada.</div>-->
+      </div>
+    </div>
+
+    <!-- SELECT PESQUISA -->
+    <form id="form-filtroVaga">            
+      <div class="form-group row">
+        <div class="col-sm-3">
+          <p class="lead">Faça sua busca aqui ➜</p>                     
+        </div>
+        <div class="col-sm-4">
+          <select name="inputFiltroTipo" id="inputFiltroTipo" onchange="ListaVagas()"  class="form-control">
+            <option value="">Qual o Tipo da Vaga (Nesta limpa o filtro)</option>
+            <option value="Aprendiz">Aprendiz</option>
+            <option value="Autônomo/PJ">Autônomo/PJ</option>
+            <option value="Efetivo/CLT">Efetivo/CLT</option>
+            <option value="Estágio">Estágio</option>
+            <option value="Freelancer">Freelancer</option>
+            <option value="Meio período">Meio período</option>
+            <option value="Tempo integral">Tempo integral</option>
+            <option value="Temporário">Temporário</option>
+          </select>
+        </div>
+        <div class="col-sm-4">
+          <select name="inputFiltroCidade" id="inputFiltroCidade" onchange="ListaVagas()" class="form-control">
+            <option value="">Qual a Cidade (Nesta limpa o filtro)</option>
+            <option value="Aracaju">Aracaju</option>
+            <option value="Belém">Belém</option>
+            <option value="Belo Horizonte">Belo Horizonte</option>
+            <option value="Boa Vista">Boa Vista</option>
+            <option value="Brasília">Brasília</option>
+            <option value="Campo Grande">Campo Grande</option>
+            <option value="Cuiabá">Cuiabá</option>
+            <option value="Curitiba">Curitiba</option>
+            <option value="Florianópolis">Florianópolis</option>
+            <option value="Fortaleza">Fortaleza</option>
+            <option value="Goiânia">Goiânia</option>
+            <option value="João Pessoa">João Pessoa</option>
+            <option value="Macapá">Macapá</option>
+            <option value="Maceió">Maceió</option>
+            <option value="Manaus">Manaus</option>
+            <option value="Natal">Natal</option>
+            <option value="Palmas">Palmas</option>
+            <option value="Porto Alegre">Porto Alegre</option>
+            <option value="Porto Velho">Porto Velho</option>
+            <option value="Recife">Recife</option>
+            <option value="Rio Branco">Rio Branco</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Salvador">Salvador</option>
+            <option value="São Luís">São Luís</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Teresina">Teresina</option>
+            <option value="Vitória">Vitória</option>
+          </select>                    
+        </div>
+      </div>
+    </form>
+
+    <!-- FILTRO -->
+    <script src="../js/vagas.js"></script>
+    <script>
+      // função para listar na tabela as vagas que estão associados aos filtros 
+      function ListaVagas() {
+          
+        // Obtem os dados informados pelo usuário nos filtros
+        let fc = document.getElementById('inputFiltroCidade').value;
+        let fcg = document.getElementById('inputFiltroTipo').value;
+
+        // limpa a lista de vagas apresentados
+        $("#table-vagas").empty();
+
+        // Popula a tabela com os registros do banco de dados
+        for (let index = 0; index < db.vagas.length; index++) {
+            const vaga = db.vagas[index];
+
+          // Verifica se os dados da vaga batem com os filtros
+          if (((vaga.cidade == fc) || (fc == '')) &&
+            ((vaga.tipo == fcg) || (fcg == ''))) {
+            
+            // Inclui a vaga na tabela    
+            $("#table-vagas").append(`
+              <div class="card border-dark">
+                <div class="card-body">
+                  <tbody>
+                    <tr>
+                      <td><h3>${vaga.titulo}</h3></td>
+                    </tr>
+                    <br>
+                    <tr>
+                      <td>${vaga.tipo}</td>
+                    </tr>
+                    <br>
+                    <tr>
+                      <td>${vaga.cidade}</td>
+                    </tr>
+                    <br><br>
+                    <tr>
+                      <td><h4>Descrição Completa</h4></td>
+                      <td>${vaga.descCompleta}</td>
+                    </tr>
+                    <br><br>
+                    <tr>
+                      <td>
+                        <div class="text-center">
+                          <input type="button" class="btn btn-primary" id="btnCandidatar botoes" value="Candidatar">
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td scope="row">ID ${vaga.id}</td>
+                    </tr>
+                  </tbody>
+                </div>
+              </div>  
+              <br>
+            `);
+          }
+        }
+
+      }
+
+    </script>
+    <!-- FILTRO -->
+  </div>
+  <!-- SELECT PESQUISA -->
+
+
+  <main class="container">
+    <div class="row">
+      <div class="col">
+        <table id="grid-vagas" class="table table-striped">
+          <tbody id="table-vagas">
+          </tbody>
+        </table> 
+      </div> 
+    </div>
+  </div>
+
+  <!-- EDIÇÕES TABELA -->
+  <script src="../js/vagas.js"></script>
+  <script>
+    function exibeVagas() {
+      // Remove todas as linhas do corpo da tabela
+      $("#table-vagas").html("");
+
+      // Popula a tabela com os registros do banco de dados
+      for (i = 0; i < db.vagas.length; i++) {
+        let vaga = db.vagas[i];
+        $("#table-vagas").append(`
+          <div class="card border-dark">
+            <div class="card-body">
+              <tbody>
+                <tr>
+                  <td><h4>${vaga.titulo}</h4></td>
+                </tr>
+                <br>
+                <tr>
+                  <td><li>${vaga.tipo}</td>
+                </tr>
+                <br>
+                <tr>
+                  <td><li>${vaga.cidade}</td>
+                </tr>
+                <br><br>
+                <tr>
+                  <td><h5>Descrição Completa</h5></td>
+                  <td>${vaga.descCompleta}</td>
+                </tr>
+                <br><br>
+                <tr>
+                  <td>
+                    <div class="text-center">
+                      <input type="button" class="btn btn-primary" id="btnCandidatar botoes" value="Candidatar">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td scope="row">ID ${vaga.id}</td>
+                </tr>
+              </tbody>
+            </div>
+          </div> 
+          <br>
+        `);
+      }
+    }
+
+    function init() {
+      // Adiciona funções para tratar os eventos 
+      $("#btnInsert").click(function () {
+         // Verfica se o formulário está preenchido corretamente
+         if (!$('#form-vaga')[0].checkValidity()) {
+          displayMessage("Preencha o formulário corretamente.");
+          return;
+        }
+
+        // Obtem os valores dos campos do formulário
+        let campoTitulo = $("#inputTitulo").val();
+        let campoTipo = $("#inputTipo").val();
+        let campoCidade = $("#inputCidade").val();
+        let campoDescBreve = $('#inputDescBreve').val();
+        let campoDescCompleta = $("#inputDescCompleta").val();
+        let vaga = {
+          titulo: campoTitulo,
+          tipo: campoTipo,
+          cidade: campoCidade,
+          descBreve: campoDescBreve,
+          descCompleta: campoDescCompleta
+        };
+
+        insertVaga(vaga);
+
+        // Reexibe as Vagas
+        exibeVagas();
+
+        // Limpa o formulario
+        $("#form-vaga")[0].reset();
+      });
+
+      // Intercepta o click do botão Alterar
+      $("#btnUpdate").click(function () {
+        // Obtem os valores dos campos do formulário
+        let campoId = $("#inputId").val();
+        if (campoId == "") {
+          displayMessage("Selecione uma Vaga para ser alterado.");
+          return;
+        }
+        let campoTitulo = $("#inputTitulo").val();
+        let campoTipo = $("#inputTipo").val();
+        let campoCidade = $("#inputCidade").val();
+        let campoDescBreve = $('#inputDescBreve').val();
+        let campoDescCompleta = $("#inputDescCompleta").val();
+        let vaga = {
+          titulo: campoTitulo,
+          tipo: campoTipo,
+          cidade: campoCidade,
+          descBreve: campoDescBreve,
+          descCompleta: campoDescCompleta
+        };
+
+        updateVaga(parseInt(campoId), vaga);
+
+        // Reexibe as vagas
+        exibeVagas();
+
+        // Limpa o formulario
+        $("#form-vaga")[0].reset();
+      });
+
+      // Intercepta o click do botão Excluir
+      $("#btnDelete").click(function () {
+        let campoId = $("#inputId").val();
+        if (campoId == "") {
+          displayMessage("Selecione uma vaga a ser excluído.");
+          return;
+          }
+        deleteVaga(parseInt(campoId));
+
+        // Reexibe as vagas
+        exibeVagas();
+
+        // Limpa o formulario
+        $("#form-vaga")[0].reset();
+      });
+
+      // Intercepta o click do botão Listar Vagas
+      $("#btnClear").click(function () {
+        $("#form-vaga")[0].reset();
+      });
+
+      // Oculta a mensagem de aviso após alguns segundos
+      $('#msg').bind("DOMSubtreeModified", function () {
+        window.setTimeout(function () {
+          $(".alert").fadeTo(500, 0).slideUp(500, function () {
+            $(this).remove();
+          });
+        }, 5000);
+      });
+
+      // Preenche o formulário e abre o modal  quando o usuario clicar em uma linha da tabela 
+      $("#grid-vagas").on("click", "tr", "card", function (e) {
+        let linhaVaga = this;
+        colunas = linhaVaga.querySelectorAll("td");
+
+        $("#inputId").val(colunas[0].innerText);
+        $("#inputTitulo").val(colunas[1].innerText);
+        $("#inputTipo").val(colunas[2].innerText);
+        $("#inputCidade").val(colunas[3].innerText);
+        $("#inputDescBreve").val(colunas[4].innerText);
+        $("#inputDescCompleta").val(colunas[5].innerText);
+      });
+
+        exibeVagas();
+
+    };
+    
+    </script>
+    <!-- EDIÇÕES TABELA -->
+  
+  </main>
+
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <!-- container -->
+    <section class="container">
+      <!-- menus -->
+      <section class="row">
+        <!-- atendimento -->
+        <article class="col-sm-3">
+          <h4>
+            Atendimento
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="tel:+5531999999999">(31) 9 9999 9999</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="contato@mulherupgrade.com.br">contato@mulherupgrade.com.br</a>
+            </li>
+
+            <li class="nav-item">
+              Atendimento virtual: De segunda à sexta, de 07:00 às 19:00h
+            </li>
+          </ul>
+        </article>
+        <!-- end atendimento -->
+
+        <!-- acesso rápido -->
+        <article class="col-sm-3">
+          <h4>
+            Acesso rápido
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="../html/Blog.html">BLOG</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="../html/userProfile.html">Minha conta - Mulher</a>
+            </li>
+
+            <li class="nav-item">
+              <a hhref="../html/signUp.html">Redefinir senha</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="../html/PerfilAdmin.html">Minha conta - Empresa</a>
+            </li>
+          </ul>
+        </article>
+        <!-- end acesso rápido -->
+
+        <!-- institucional -->
+        <article class="col-sm-3">
+          <h4>
+            Institucional
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="../html/About.html">Sobre o projeto</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Politica e Privacidade</a>
+            </li>
+          </ul>
+        </article>
+        <!-- end institucional -->
+
+        <!-- Leis -->
+        <article class="col-sm-3">
+          <h4>
+            Leis e Garantias
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">LGPD L13709/2018</a>
+            </li>
+
+            <li class="nav-item ellipsis">
+              <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm">LOA L12527/2011</a>
+            </li>
+
+            <li class="nav-item ">
+              <a href="http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/D10222.htm">Crimes Cibernéticos D10222/2020</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm">Marco Civil da Internet L12965/2014</a>
+            </li>
+          </ul>
+        </article>
+        <!-- Leis e garantias -->
+      </section>
+      <!-- end menus -->
+    </section>
+    <!-- end container -->
+
+  </footer>
+  <!-- Fim do Footer-->
+
+</body>
+
+</html>
